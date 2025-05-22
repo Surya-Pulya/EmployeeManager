@@ -3,7 +3,6 @@ package com.bridgelabz;
 import java.util.HashMap;
 import java.util.Map;
 
-// CRUD using Maps
 public class EmployeeManager {
     private Map<Integer, Employee> employeeMap = new HashMap<>();
 

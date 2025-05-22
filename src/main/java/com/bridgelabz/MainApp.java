@@ -8,7 +8,7 @@ public class MainApp {
         EmployeeManager manager = new EmployeeManager();
 
         while (true) {
-            System.out.println("\n1. Add Employee\n2. Update Employee\n3. Delete Employee\n4. View Employee\n5. View All\n6. Exit");
+            System.out.println("\n1. Add Employee\n2. Update Employee\n3. Delete Employee\n4. View Employee\n5. View All Employees\n6. Exit");
             System.out.print("Choose an option: ");
             int choice = sc.nextInt();
 
