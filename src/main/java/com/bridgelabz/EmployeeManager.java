@@ -34,6 +34,10 @@ public class EmployeeManager {
     }
 
     public void displayAllEmployees() {
+    	if (employeeMap.isEmpty()) {
+    		System.out.println("There are no employees in the database.");
+    	}
+    	else {
         for (Employee e : employeeMap.values()) {
             e.displayDetails();
             if (e instanceof PermanentEmployee) {
@@ -42,5 +46,6 @@ public class EmployeeManager {
                 System.out.println(" -> Type: Contract");
             }
         }
+    	}
     }
 }
